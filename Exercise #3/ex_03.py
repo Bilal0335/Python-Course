@@ -1,6 +1,7 @@
 # Program to add digits of a number
 
 
+# First Method to add digits of a number
 number = input("Enter a two-digit number: ")  
 digit_1 = int(number[0]) 
 digit_2 = int(number[1]) 

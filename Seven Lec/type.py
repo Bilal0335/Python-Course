@@ -1,7 +1,7 @@
 # Type Checking, Type Error and Type Conversion | Type Casting in Python
 
-print(len("bilal"))
-print(len("123"))
+# print(len("bilal"))
+# print(len("123"))
 # print(len(1234)) #TypeError: object of type 'int' has no len()
 
 
@@ -27,10 +27,10 @@ Converting a value from one data type to another using built-in functions.
 Jab hum check karte hain ke koi variable kis data type ka hai.
 Python mein type() aur isinstance() ka use hota hai.
 '''
-x = 10
-print(type(x))  # Output: <class 'int'>
+# x = 10
+# print(type(x))  # Output: <class 'int'>
 
-print(isinstance(x, int))  # Output: True
+# print(isinstance(x, int))  # Output: True
 
 '''
 2️⃣ Type Error:
@@ -66,3 +66,9 @@ Jab hum khud data type change karte hain using built-in functions like int(), fl
 # x = "100"
 # y = int(x)  # Converting string to integer
 # print(y, type(y))  # Output: 100 <class 'int'>
+
+
+# name = "Bilal"
+# res = len(name)
+# print(type(res))
+# print(f"My name is {res} length number")

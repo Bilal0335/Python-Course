@@ -87,11 +87,11 @@
 # print(a > 4 and b > 4) # 5 > 4 and 4 > 4 # F
 # print(a > 4 and b < 3)  # 5 > 4 and 4 < 3 # F
 
-x = 10
-y = 5
-z = 20
-a = True
-b = False
+# x = 10
+# y = 5
+# z = 20
+# a = True
+# b = False
 
 # print(x > 5 and y < 10)    # T and T = T
 # print(x > 5 and y > 10)    # T and F = F

@@ -135,3 +135,64 @@ The second print statement outputs the value of value, which is 50.
 
 # print(f"The number is {(value := 50)}")
 # print(value)
+
+
+#### **5. Bitwise Operators**  
+#** `&`, `|`, `^`, `~`, `<<`, `>>`  
+
+
+
+#### **6. Membership Operators**  
+## ** `in`, `not in`  
+
+
+
+#### **7. Identity Operators**  
+# ** `is`, `is not`  
+
+'''
+Identity operators in Python are used to compare the memory locations of two objects. These operators check whether two variables reference the same object in memory, not just if they have the same value.
+
+Operators:
+is → Returns True if both variables refer to the same object.
+is not → Returns True if both variables refer to different objects.
+
+caching range (-5 to 256)
+'''
+
+# a = 5
+# print(id(a))
+# b = 5
+# print(id(b))
+
+# print(a is b)  # Output: True
+
+
+# a = 5
+
+# b = a 
+
+# print(a is b)  
+
+
+# x = [1,2,3]
+# print(id(x))
+
+# y = [1,2,3 ]  # Different objects with the same values
+# print(id(y))
+
+
+# print(x is y)
+# print(x is not y)
+
+
+# x = int(5000)
+# y = int(5000)
+
+# print(id(x), id(y))  # Check memory locations True
+# print(x is y)        # Check identity True
+
+# a = 5
+# b = '5'
+# print(id(a),"\n",id(b)) # Check memory locations
+# print(a is b)

@@ -45,13 +45,7 @@
 # print(2 // 3)
 # print(2 ** 3)
 
-# Assignments BMI Calculator
-# w = float(input("Enter your weight in kg: "))
-# h = float(input("Enter your height in meters: "))
 
-# bmi = w / (h ** 2)
-
-# print("Your BMI is:", round(bmi, 2))
 
 
 #### **2. Assignment Operators**  
@@ -196,3 +190,22 @@ caching range (-5 to 256)
 # b = '5'
 # print(id(a),"\n",id(b)) # Check memory locations
 # print(a is b)
+
+
+
+#### **6. Membership Operators**  
+## ** `in`, `not in`  
+
+
+'''
+Python provides two membership operators, in and not in, which are used to check whether a value exists in a sequence such as a list, tuple, string, or dictionary.
+
+in
+not in
+'''
+
+str_name = "Bilal"
+print('b' in str_name) #false
+print('B' in str_name) #True
+print('B' not in str_name) # F
+print('Y' not in str_name) # F

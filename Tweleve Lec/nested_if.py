@@ -40,8 +40,6 @@
 ** Agar PIN sahi hai, toh menu show hoga (Balance Check, Withdraw, Deposit).
 ** Agar PIN galat hai, toh access deny hoga.
 ** Nested if ka use hoga har step pe.
-
-
 '''
 # 🔹 Predefined PIN and Balance
 correct_pin = "1234"

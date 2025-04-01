@@ -48,8 +48,8 @@ print("Number: {}".format(num))
 
 # Returns the index of a given element
 
-print("Number: {}".format(num.index(1)))
-print("Number: {}".format(num.index('Bilal')))
+print("Index Number: {}".format(num.index(1)))
+print("Index Number: {}".format(num.index('Bilal')))
 print(f"----------------------------------------------------------------")
 # Counts occurrences of a specific element
 num = [1, 2, 2, 3, 4, 2]
@@ -101,3 +101,10 @@ print(" ".join(words))  # "Hello World"
 string = "Python"
 print(list(string))  # ['P', 'y', 't', 'h', 'o', 'n']
 
+num = [1,2,3,4,5]
+num[1:3] = ['bilal']
+print(num)
+
+data = "apple,banana,mango,grape"
+fruits = data.split(",")  # Splitting by comma
+print(fruits)
